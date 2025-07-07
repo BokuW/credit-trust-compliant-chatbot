@@ -6,13 +6,14 @@ __pycache__/
 .Python/
 env/
 venv/
+*.venv
 *.egg
 *.egg-info/
 dist/
 
 build/
 *.so
-.env
+*.env
 .pytest_cache/
 
 # Data
