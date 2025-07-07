@@ -1,9 +1,0 @@
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-langchain
-sentence-transformers
-faiss-cpu # or chromadb
-streamlit # or gradio
