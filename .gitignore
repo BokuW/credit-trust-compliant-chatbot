@@ -17,10 +17,14 @@ build/
 .pytest_cache/
 
 # Data
-data/raw/*.csv # You might want to keep the raw data in Git if it's small, otherwise ignore it
-data/processed/filtered_complaints.csv # If this file gets very large, consider ignoring and generating from raw
-vector_store/ # Definitely ignore this as it can be large and rebuilt
-*.db # For ChromaDB or any other local database files
+data/
+raw/
+*.csv 
+data/
+processed/
+*filtered_complaints.csv 
+vector_store/ 
+*.db 
 
 # Jupyter
 .ipynb_checkpoints/
